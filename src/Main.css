@@ -25,8 +25,8 @@ h1 {
 
 /* Contenedor principal - ahora ocupa toda la pantalla */
 .api-link-container {
-  width: 95vw; /* Ocupa toda la pantalla */
-  height: 80vh; /* Ajusta la altura completa */
+  width: 86vw; /* Ocupa toda la pantalla */
+  height: 70vh; /* Ajusta la altura completa */
   margin: 0; /* Elimina márgenes blancos */
   padding: 20px;
   background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-programacion_114360-1351.jpg?uid=R120872974&ga=GA1.1.361368930.1741124675&semt=ais_hybrid');
