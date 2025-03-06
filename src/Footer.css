@@ -1,0 +1,8 @@
+
+
+.mi-contenedor{
+    color: blue;          /* Cambia el color del texto a azul */
+    font-size: 18px;      /* Cambia el tamaño de la fuente */
+    background-color:rgba(67, 151, 67, 0.822) ; /* Cambia el fondo del párrafo */
+    padding: 10px;        /* Agrega espacio dentro del párrafo */
+  }
