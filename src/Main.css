@@ -1,24 +1,20 @@
 
-body {
-  background-color: rgba(127, 255, 212, 0.349);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Contenedor principal (puede ser un elemento custom o <div>) */
 root {
-  width: 100vw;
-  height: 100vh;
+  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
   margin: 0;
   padding: 2rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Fondo del cuerpo */
+body {
+  background-color: rgba(127, 255, 212, 0.349);
+  margin: 0; /* Elimina los márgenes blancos */
+  padding: 0;
 }
 
 /* Estilo del título */
@@ -27,44 +23,39 @@ h1 {
   margin: 0;
 }
 
-/* Contenedor principal con imagen de fondo y estilo "burbuja" */
+/* Contenedor principal - ahora ocupa toda la pantalla */
 .api-link-container {
-  width: 95vw;               /* Ocupa casi todo el ancho de la pantalla */
-  max-width: 1200px;         /* Controla el tamaño máximo */
-  height: 90vh;              /* Ocupa la mayor parte de la altura */
-  margin: 0 auto 0 20px;      /* Se mantiene el margen izquierdo y se agrega uno derecho implícito */
-  padding: 40px;             /* Aumenta el espacio interno */
+  width: 100vw; /* Ocupa toda la pantalla */
+  height: 100vh; /* Ajusta la altura completa */
+  margin: 0; /* Elimina márgenes blancos */
+  padding: 20px;
   background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-programacion_114360-1351.jpg?uid=R120872974&ga=GA1.1.361368930.1741124675&semt=ais_hybrid');
-  background-size: cover;    /* La imagen cubre todo el contenedor */
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente sobre la imagen */
-  border-radius: 30px;       /* Bordes redondeados tipo burbuja */
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
 }
 
 /* Enlaces dentro del contenedor */
 .api-link-container a {
   font-size: 20px;
   color: #FFFFFF;
-  padding: 15px 30px;        /* Espaciado interno aumentado */
-  border-radius: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: background-color 0.3s ease-in-out, transform 0.2s;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
 }
 
 .api-link-container a:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-  transform: scale(1.05);    /* Efecto sutil de crecimiento al hacer hover */
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Contenedor secundario (si es necesario) */
+/* Contenedor secundario */
 .main-contenedor2 {
   background-color: rgba(127, 255, 212, 0.349);
   width: 100vw;
@@ -72,7 +63,7 @@ h1 {
   padding: 2rem;
 }
 
-/* Estilos para el logo */
+/* Estilos del logo */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -98,19 +89,19 @@ h1 {
   }
 }
 
-/* Aplicar animación si el usuario no ha reducido el movimiento */
+/* Accesibilidad para animaciones */
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
-/* Estilo para tarjetas */
+/* Tarjetas */
 .card {
   padding: 2em;
 }
 
-/* Estilo para textos de documentación */
+/* Texto de documentación */
 .read-the-docs {
   color: #888;
 }
