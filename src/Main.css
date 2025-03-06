@@ -29,7 +29,7 @@ h1 {
 
 /* Contenedor principal con imagen de fondo y estilo "burbuja" */
 .api-link-container {
-  width: 95vw;               /* Ocupa casi todo el ancho de la pantalla */
+  width: 75vw;               /* Ocupa casi todo el ancho de la pantalla */
   max-width: 1200px;         /* Controla el tamaño máximo */
   height: 90vh;              /* Ocupa la mayor parte de la altura */
   margin: 0 auto 0 20px;      /* Se mantiene el margen izquierdo y se agrega uno derecho implícito */
