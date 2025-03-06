@@ -38,6 +38,11 @@ h1 {
   justify-content: center;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+
+  background-size: cover;  /* La imagen cubrirá todo el contenedor */
+  background-position: center;  /* Imagen centrada */
+  background-repeat: no-repeat;
+  border-radius: 20px;     
 }
 
 /* Enlaces dentro del contenedor */
