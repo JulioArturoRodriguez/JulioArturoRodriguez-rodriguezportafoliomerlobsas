@@ -40,11 +40,11 @@ body{
   background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-programacion_114360-1351.jpg?uid=R120872974&ga=GA1.1.361368930.1741124675&semt=ais_hybrid'); /* Cambia esta URL por la de tu imagen */
   background-size: cover; /* Asegura que la imagen cubra todo el div */
   background-position: center; /* Centra la imagen */
-  padding: 80px; /* Agrega espacio alrededor del contenido */
+  padding: 20px; /* Agrega espacio alrededor del contenido */
   border-radius: 10px; /* Opcional: para bordes redondeados */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Opcional: para sombra */
   width: 100%; /* Opcional: para que el contenedor ocupe todo el ancho */
-  max-width: 800px; /* Opcional: para limitar el ancho del contenedor */
+  max-width: 1000px; /* Opcional: para limitar el ancho del contenedor */
   margin-left: auto; /* Opcional: para centrar el contenedor */
   margin-right: auto; /* Opcional: para centrar el contenedor */
   display: flex; /* Opcional: para alinear los elementos en el centro */
@@ -52,7 +52,7 @@ body{
   align-items: center; /* Opcional: para alinear los elementos en el centro */
   justify-content: center; /* Opcional: para alinear los elementos en el centro */
   text-align: center; /* Opcional: para alinear el texto en el centro */
-  height: 60vh; /* Opcional: para que el contenedor ocupe toda la pantalla */
+  height: 70vh; /* Opcional: para que el contenedor ocupe toda la pantalla */
   background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
 }
 
