@@ -32,7 +32,7 @@ h1 {
   width: 95vw;               /* Ocupa casi todo el ancho de la pantalla */
   max-width: 1200px;         /* Controla el tamaño máximo */
   height: 90vh;              /* Ocupa la mayor parte de la altura */
-  margin: 0 auto 0 0px;      /* Se mantiene el margen izquierdo y se agrega uno derecho implícito */
+  margin: 0 auto 0 20px;      /* Se mantiene el margen izquierdo y se agrega uno derecho implícito */
   padding: 40px;             /* Aumenta el espacio interno */
   background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-programacion_114360-1351.jpg?uid=R120872974&ga=GA1.1.361368930.1741124675&semt=ais_hybrid');
   background-size: cover;    /* La imagen cubre todo el contenedor */
