@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 root {
   width: 100vw; /* Ocupa todo el ancho de la pantalla */
   height: 100vh; /* Ocupa toda la altura de la pantalla */
@@ -23,21 +23,24 @@ h1 {
   margin: 0;
 }
 
-/* Contenedor principal - ahora ocupa toda la pantalla */
+/* Contenedor principal con imagen de fondo y estilo modificado */
 .api-link-container {
-  width: 100vw; /* Ocupa toda la pantalla */
-  height: 100vh; /* Ajusta la altura completa */
-  margin: 0; /* Elimina márgenes blancos */
+  width: 95vw;             /* Ocupa casi todo el ancho de la pantalla dejando espacio en ambos lados */
+  height: 100vh;           /* Ajusta la altura completa */
+  margin: 20px auto;       /* Espacio arriba y abajo, y centrado horizontalmente */
   padding: 20px;
   background-image: url('https://img.freepik.com/vector-gratis/ilustracion-concepto-programacion_114360-1351.jpg?uid=R120872974&ga=GA1.1.361368930.1741124675&semt=ais_hybrid');
-  background-size: cover;
-  background-position: center;
+  background-size: cover;  /* La imagen cubrirá todo el contenedor */
+  background-position: center;  /* Imagen centrada */
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  background-color: rgba(0, 0, 0, 0.5);  /* Fondo semitransparente sobre la imagen */
+  border-radius: 20px;     /* Bordes redondeados tipo burbuja */
+  border: 2px solid rgba(0, 0, 0, 0.3);  /* Borde gris oscuro transparente */
 }
 
 /* Enlaces dentro del contenedor */
